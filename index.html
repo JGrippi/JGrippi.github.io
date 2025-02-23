@@ -16,7 +16,7 @@
         
     <!-- Navigation -->
     <nav class="bg-blue-900 text-white p-6 shadow-lg">
-        <div class="container mx-auto flex justify-between items-center">
+        <div class="container mx-auto flex justify-between items-center md:flex-col">
             <a href="https://www.linkedin.com/in/joey-grippi/" 
                target="_blank" 
                rel="noopener noreferrer" 
@@ -32,11 +32,11 @@
     <!-- Header -->
     <header class="bg-white shadow-xl">
         <div class="container mx-auto py-20 px-4">
-            <h1 class="text-5xl font-bold text-gray-900 mb-6">Computer Science ePortfolio</h1>
+            <h1 class="text-5xl font-bold text-gray-900 mb-6 md:text-3xl">Computer Science ePortfolio</h1>
             <p class="text-2xl text-gray-700 mb-2">Bachelor of Science in Computer Science</p>
             <p class="text-xl text-blue-600 mb-2">Concentration in Data Analysis</p>
             <div class="mt-4 space-y-1">
-                <p class="text-lg text-gray-700">Summa Cum Laude • 4.0 GPA</p>
+                <p class="text-lg text-gray-700 md:mb-4">Summa Cum Laude • 4.0 GPA</p>
                 <a href="https://meritpages.com/JoeyGrippi" 
                    target="_blank" 
                    rel="noopener noreferrer" 
@@ -52,14 +52,14 @@
     <main class="container mx-auto py-12 px-6">
         
         <!-- Self-Assessment Section -->
-        <section id="self-assessment" class="mb-16">
+        <section id="self-assessment" class="mb-16 md:mb-8 px-6 md:px-4">
             <h2 class="text-4xl font-bold text-gray-800 mb-8 border-b-4 border-blue-600 pb-4 inline-block">Self-Assessment</h2>
             <div class="bg-white rounded-lg shadow-lg p-10 hover:shadow-xl transition duration-300">
                 <h3 class="text-2xl font-bold text-gray-800 mb-6">Introduction</h3>
-                <p class="text-gray-700 mb-8 leading-relaxed">
+                <p class="text-gray-700 mb-8 leading-relaxed md:mb-4">
                     Throughout my journey pursuing a Computer Science degree at Southern New Hampshire University, I have developed a comprehensive foundation in software development, data analysis, and problem-solving. This portfolio represents not just the culmination of my academic achievements, but demonstrates my readiness to contribute meaningful solutions in the professional software development landscape.
                 </p>
-        
+                
                 <h3 class="text-2xl font-bold text-gray-800 mb-6">Educational Journey and Professional Growth</h3>
                 <p class="text-gray-700 mb-8 leading-relaxed">
                     My academic path has been marked by continuous learning and practical application across various domains of computer science. During my two-plus years in the program, I've gained expertise in multiple programming languages including Python, Java, JavaScript, HTML, C++, SQL, and R. This diverse technical toolkit has enabled me to approach problems from different angles and select the most appropriate tools for specific challenges.
@@ -125,10 +125,10 @@
         </section>
 
         <!-- Code Review Section -->
-        <section id="code-review" class="mb-16">
+        <section id="code-review" class="mb-16 md:mb-8 px-6 md:px-4">
             <h2 class="text-4xl font-bold text-gray-800 mb-8 border-b-4 border-blue-600 pb-4 inline-block">Code Review</h2>
             <div class="bg-white rounded-lg shadow-lg p-10 hover:shadow-xl transition duration-300">
-                <div class="relative" style="padding-top: 56.25%">
+                <div class="relative pb-[56.25%] h-0 overflow-hidden">
                     <iframe class="absolute top-0 left-0 w-full h-full shadow-lg rounded-lg" 
                             src="https://www.youtube-nocookie.com/embed/PazQhAiv_DE?vq=hd1080&hd=1&modestbranding=1&rel=0" 
                             frameborder="0" 
@@ -139,8 +139,8 @@
             </div>
         </section>
 
-      <!-- Artifacts Section -->
-        <section id="artifacts" class="mb-16">
+        <!-- Artifacts Section -->
+        <section id="artifacts" class="mb-16 md:mb-8 px-6 md:px-4">
             <h2 class="text-4xl font-bold text-gray-800 mb-8 border-b-4 border-blue-600 pb-4 inline-block">Enhanced Artifacts</h2>
             
             <!-- Software Design and Engineering -->
@@ -291,33 +291,19 @@
             </div>
         </section>
     </main>
-
-    <!-- Footer -->
+  
+      <!-- Footer -->
     <footer class="bg-blue-900 text-white py-10">
         <div class="container mx-auto px-4 text-center">
-            <p class="text-lg mb-4">&copy; 2025 Joey Grippi. All rights reserved.</p>
+            <p class="text-lg mb-4 md:mb-2">&copy; 2025 Joey Grippi. All rights reserved.</p>
             <div class="mb-4 flex justify-center space-x-6">
-                <a href="https://www.linkedin.com/in/joey-grippi/" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
-                   class="text-blue-200 hover:text-white transition duration-300 inline-flex items-center">
-                    <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                    </svg>
-                    Connect on LinkedIn
-                </a>
-                <a href="https://meritpages.com/JoeyGrippi" 
-                   target="_blank" 
-                   rel="noopener noreferrer" 
-                   class="text-blue-200 hover:text-white transition duration-300 inline-flex items-center">
-                    <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/>
-                    </svg>
-                    View Academic Achievements
-                </a>
+                <!-- Social Links -->
             </div>
             <div class="text-blue-200">
                 Computer Science Portfolio • Southern New Hampshire University
             </div>
         </div>
     </footer>
+
+</body>
+</html>
