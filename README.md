@@ -5,8 +5,8 @@ This repository contains my Computer Science ePortfolio, showcasing my journey a
 ## Repository Structure
 - `/favicon` - Directory containing website favicon assets and manifests
 - `README.md` - Repository documentation and portfolio overview
-- - `_config.yml` - GitHub Pages configuration settings
-- - `index.html` - Main portfolio webpage containing all project content and styling
+- `_config.yml` - GitHub Pages configuration settings
+- `index.html` - Main portfolio webpage containing all project content and styling
 
 ## Portfolio Overview
 
